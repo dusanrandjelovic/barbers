@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shop | Barber Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Barber shop gallery">
+    <meta name="keywords" content="barber shop, haircut, beard, mustache">
+    <meta name="author" content="Dusan Randjelovic | dusanrandjelovic92@gmail.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="shop.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logodiv">
+        <a href="index.html"><img src="logo.png" alt="Barber Shop | logo"></a>
+      </div>
+        <nav class="topnav" id="myTopnav">
+
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact</a>
+
+          <a href="javascript:void(0);" class="icon" onclick="navigacija()">&#9776;</a>
+      </nav>
+      </header>
+        <div class="text">
+          <span>---- CHOOSE SOME OF OUR PRODUCTS</span>
+            <h1>SHOP</h1>
+          </div>
+      </main>
+      <article id="proizvodi">
+           <div class="red">
+             <div>
+              <img src="pribor.jpg" alt="Barber shop | proizvod" data-toggle="tooltip" data-placement="top"
+              title="Opis proizvoda">
+              <h2>Brijac 1</h2>
+              <p>Cena: <strong>20 <span>$</span></strong></p>
+              <input type="number" id="kol1" min=0 value=0>
+            </div>
+            <div>
+             <img src="pribor.jpg" alt="Barber shop | proizvod" data-toggle="tooltip" data-placement="top"
+             title="Opis proizvoda">
+             <h2>Brijac 2</h2>
+             <p>Cena: <strong>10 <span>$</span></strong></p>
+             <input type="number" id="kol2" min=0 value=0>
+           </div>
+           <div>
+            <img src="pribor.jpg" alt="Barber shop | proizvod" data-toggle="tooltip" data-placement="top"
+            title="Opis proizvoda">
+            <h2>Brijac 3</h2>
+            <p>Cena: <strong>30 <span>$</span></strong></p>
+            <input type="number" id="kol3" min=0 value=0>
+          </div>
+
+             <div>
+              <img src="pribor2.jpg" alt="Barber shop | proizvod" data-toggle="tooltip" data-placement="top"
+              title="Opis proizvoda">
+              <h2>Brijac 4</h2>
+              <p>Cena: <strong>50 <span>$</span></strong></p>
+              <input type="number" id="kol4" min=0 value=0>
+             </div>
+             <div>
+             <img src="pribor2.jpg" alt="Barber shop | proizvod" data-toggle="tooltip" data-placement="top"
+             title="Opis proizvoda">
+             <h2>Brijac 5</h2>
+             <p>Cena: <strong>70 <span>$</span></strong></p>
+             <input type="number" id="kol5" min=0 value=0>
+             </div>
+             <div>
+             <img src="pribor2.jpg" alt="Barber shop | proizvod" data-toggle="tooltip" data-placement="top"
+             title="Opis proizvoda">
+             <h2>Brijac 6</h2>
+             <p>Cena: <strong>50 <span>$</span></strong></p>
+             <input type="number" id="kol6" min=0 value=0>
+             </div>
+           </div>
+
+         <div class="dole">
+         <h3>Ukupno: <span id="prostor">0 $</span></h3>
+         <a href="#narudzbenica">Naruči</a>
+         </div>
+
+       </article>
+
+           <div id="narudzbenica">
+              <div class="levo">
+                <h1>Narudžbina</h1>
+                <h3>Uplata se vrši na račun u banci ili paypal račun. Posle uplate stići će vam željeni proizvodi.</h3>
+                <h3>Za narudžbine preko 2000 dinara, poštarina je besplatna.</h3>
+                <div id="rezultati">
+                </div>
+              </div>
+
+              <form action="https://formspree.io/dusanrandjelovic92@gmail.com" method="post" id="slanje">
+
+                  <label for="ime">Ime i prezime: </label>
+                  <input id="ime" name="ime">
+
+                  <label for="grad">Grad: </label>
+                  <input id="grad" name="grad">
+
+                    <label for="adresa">Adresa: </label>
+                    <input id="adresa" name="adresa">
+
+
+
+                      <label for="telefon">Telefon: </label>
+                      <input id="telefon" name="telefon" placeholder="0xx/xxx-xxxx">
+
+
+
+                        <label for="email">Email: </label>
+                        <input id="email" name="email">
+
+
+                <div>
+                <button>KUPI</button>
+                </div>
+
+              </form>
+           </div>
+
+
+
+      <footer>
+      <div class="kolonafuter">
+        <div>
+          <h3>OPENING HOURS</h3>
+          <p class="linijafuter"></p>
+
+
+          <p class="marginagore"><strong>Monday – Friday……………………9am – 5pm</strong></p>
+          <p><strong>Saturday……………………………11am – 3pm</strong></p>
+          <p class="marginadole"><strong>Saturday……………………………11am – 3pm</strong></p>
+
+          <h3>KEEP IN TOUCH</h3>
+          <p class="linijafuter"></p>
+        </div>
+
+        <div>
+          <h3>CONTACT</h3>
+          <p class="linijafuter"></p>
+
+
+          <p class="marginagore"><strong>Address…………1 Fifth Avenue, New York, NY</strong></p>
+          <p><strong>Phone…………………………+1 910-626-85255</strong></p>
+          <p><strong>Email…………………………info@barber.com</strong></p>
+        </div>
+    </div>
+    <div class="dno">
+      <p>Copyright &copy; 2019 Barber Shop | All rights reserved.</p>
+    </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="shop.js"></script>
+      </body>
+      </html>

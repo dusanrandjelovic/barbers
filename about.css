@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.8%;
+}
+header .logodiv{
+  width: 40%;
+  padding-left: 8%;
+}
+header nav {
+width: 50%;
+display: flex;
+justify-content: flex-end;
+padding-right: 8%;
+}
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-08-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  padding-bottom: 4%;
+}
+main .text {
+  padding-left: 8%;
+  width: 47%;
+  color: white;
+  margin-top: 9%;
+}
+main .text span {
+  color: #dd3333;
+  font-size: 1em;
+    font-weight: 300;
+}
+main .text h1 {
+  font-size: 4.5em;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #dd3333;
+}
+
+.topnav .icon {
+  display: none;
+  font-size: 1.5em;
+}
+
+#drugideo {
+  background-image: url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-07-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 6% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#drugideo .kolona {
+  padding-left: 8%;
+  width: 47%;
+  color: white;
+}
+.linija {
+  border-bottom: 2px solid #dd3333;
+  width: 5%;
+}
+h2 {
+  margin-top: 0;
+  font-size: 3.5em;
+}
+h3 {
+  padding-top: 8%;
+}
+.crvena {
+  color: #dd3333;
+}
+#drugideo .dvekolone {
+  display: flex;
+  padding: 4% 0;
+}
+#drugideo .dvekolone p {
+  margin: 1.9%;
+}
+#drugideo .slika {
+  padding-right: 8%;
+}
+#trecideo {
+  background: black;
+  padding: 6% 0;
+}
+
+
+#trecideo .kolona1 {
+  padding-left: 8%;
+  width: 47%;
+  color: white;
+}
+#trecideo .kolona2 {
+  padding-left: 6%;
+  width: 91%;
+  color: white;
+}
+.redservisi {
+  display: flex;
+}
+.servis {
+  margin: 2%;
+  width: 18%;
+}
+.cena {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  margin-bottom: 4%;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-06-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+  background-position: center;
+}
+.kolonafuter {
+  display: flex;
+  padding-left: 7%;
+  width: 80%;
+  color: white;
+}
+.kolonafuter h3 {
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+.linijafuter {
+  border-top: 2px solid white;
+  width: 5%;
+}
+.kolonafuter div {
+  margin: 2%;
+  width: 50%;
+}
+.marginagore {
+  margin-top: 6%;
+}
+.marginadole {
+  margin-bottom: 8%;
+}
+.dno {
+  color: white;
+  padding-left: 8%;
+  padding-top: 3%;
+  font-weight: 900;
+}
+@media screen and (max-width: 850px){
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.8%;
+    flex-direction: column;
+  }
+  header .logodiv{
+    width: 30%;
+    padding-left: 0;
+  }
+  header nav {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 0;
+  }
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    /*float: right;*/
+    display: block;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    /*float: none;*/
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {
+    /*float: none;*/
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  #drugideo {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #drugideo h2 {
+    font-size: 1.75em;
+  }
+  #drugideo .kolona {
+    width: 70%;
+  }
+  #drugideo .dvekolone {
+    flex-direction: column;
+  }
+  #drugideo .slika {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 748px) {
+
+
+  main .text {
+    width: 62%;
+  }
+  main .text h1 {
+    font-size: 2em;
+  }
+  #trecideo .kolona1 {
+    width: 62%;
+  }
+  #trecideo h2 {
+    font-size: 1.75em;
+  }
+  .redservisi {
+    flex-direction: column;
+  }
+  .servis {
+    margin: 2%;
+    width: 92%;
+  }
+  .kolonafuter {
+    flex-direction: column;
+  }
+  .kolonafuter div {
+    width: 100%;
+    font-size: 0.92em;
+  }
+  .dno p {
+    font-size: 0.92em;
+  }
+}

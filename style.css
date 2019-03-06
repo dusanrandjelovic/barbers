@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-03-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  padding-bottom: 6%;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.8%;
+}
+header .logodiv{
+  width: 40%;
+  padding-left: 8%;
+}
+header nav {
+width: 50%;
+display: flex;
+justify-content: flex-end;
+padding-right: 8%;
+}
+
+main .text {
+  padding-left: 8%;
+  width: 47%;
+  color: white;
+  margin: 9% 0 7% 0;
+}
+main .text span {
+  font-size: 1em;
+  font-weight: 300;
+}
+main .text h1 {
+  font-size: 4em;
+}
+main .text p {
+  padding: 8% 0;
+  border-top: 1px solid white;
+  line-height: 1.5em;
+}
+main .text a, #drugideo a, #trecideo a, #cetvrtideo a {
+  padding: 14px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #dd3333;
+}
+
+.topnav .icon {
+  display: none;
+  font-size: 1.5em;
+}
+
+#drugideo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-02-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 8% 0;
+  background-position: center;
+}
+#drugideo .kolona, #trecideo .kolona, #cetvrtideo .kolona, #petideo .kolona {
+  padding-left: 8%;
+  width: 47%;
+  color: white;
+}
+.linija {
+  border-bottom: 2px solid white;
+  width: 5%;
+}
+h2 {
+  margin-top: 0;
+  font-size: 3.5em;
+}
+#drugideo h3, #cetvrtideo h3, #petideo h3 {
+  padding-top: 8%;
+}
+#drugideo .dvekolone {
+  display: flex;
+  padding-bottom: 8%;
+}
+.dvekolone p {
+  margin: 1%;
+}
+
+#trecideo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-01-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  padding: 8% 0;
+  background-position: center;
+}
+.redservis {
+  display: flex;
+  margin-top: 4%;
+}
+.redservis img {
+  height: 60px;
+  width: 60px;
+  padding-right: 9%;
+}
+.poslednji {
+  margin-bottom: 8%;
+}
+
+#cetvrtideo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-05-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 7% 0;
+  background-position: center;
+}
+
+.redcene {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  margin-bottom: 4%;
+}
+.cene {
+  padding: 6% 0 8% 0;
+}
+
+#petideo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-04-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  padding: 7% 0;
+  background-position: center;
+}
+.redslike {
+  display: flex;
+  width: 62%;
+  padding: 4% 0 4% 8%;
+  color: white;
+}
+.redslike div {
+  margin: 1%;
+  width: 100%;
+}
+.redslike p {
+  border-bottom: 2px solid white;
+  padding-bottom: 4%;
+}
+.redslike img {
+  opacity: 0.9;
+}
+.redslike img:hover {
+  opacity: 1;
+}
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-06-free-img.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+  background-position: center;
+}
+.kolonafuter {
+  display: flex;
+  padding-left: 7%;
+  width: 80%;
+  color: white;
+}
+.kolonafuter h3 {
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+.linijafuter {
+  border-top: 2px solid white;
+  width: 5%;
+}
+.kolonafuter div {
+  margin: 2%;
+  width: 50%;
+}
+.marginagore {
+  margin-top: 6%;
+}
+.marginadole {
+  margin-bottom: 8%;
+}
+.dno {
+  color: white;
+  padding-left: 8%;
+  padding-top: 3%;
+  font-weight: 900;
+}
+@media screen and (max-width: 850px) {
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.8%;
+    flex-direction: column;
+  }
+  header .logodiv{
+    width: 30%;
+    padding-left: 0;
+  }
+  header nav {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 0;
+  }
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    /*float: right;*/
+    display: block;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    /*float: none;*/
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive {
+    /*float: none;*/
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 748px) {
+  main .text {
+    width: 62%;
+  }
+  main .text h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.75em;
+  }
+  #drugideo .kolona, #trecideo .kolona, #cetvrtideo .kolona, #petideo .kolona {
+    width: 62%;
+  }
+  #drugideo .dvekolone {
+    flex-direction: column;
+  }
+  .redservis {
+    flex-direction: column;
+  }
+  .redslike {
+    flex-direction: column;
+  }
+  .kolonafuter {
+    flex-direction: column;
+  }
+  .kolonafuter div {
+    width: 100%;
+    font-size: 0.92em;
+  }
+  .dno p {
+    font-size: 0.92em;
+  }
+}
