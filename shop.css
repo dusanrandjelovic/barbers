@@ -28,7 +28,7 @@ justify-content: flex-end;
 padding-right: 8%;
 }
 main {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-11-free-img.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("bggallery.jpg");
   background-size: cover;
   width: 100%;
   height: auto;
@@ -106,7 +106,7 @@ main .text h1 {
   color: white;
 }
 #narudzbenica {
-  background: url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-07-free-img.jpg");
+  background: url("bgabout2.jpg");
   background-size: cover;
   width: 100%;
   background-position: center;
@@ -151,7 +151,7 @@ main .text h1 {
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-06-free-img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg6.jpg");
   background-size: cover;
   width: 100%;
   height: auto;

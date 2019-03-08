@@ -15,22 +15,22 @@ function ukupanIznos() {
   document.getElementById("rezultati").innerHTML = "Vaš račun je: " + cena + " $" + '<br>';
 
   if(kolPrvi > 0){
-      document.getElementById("rezultati").innerHTML += "Naručeno: Brijac 1, komada " + kolPrvi + "." + '<br>';
+      document.getElementById("rezultati").innerHTML += "Naručeno: Komplet za šišanje, komada " + kolPrvi + "." + '<br>';
   }
   if(kolDrugi > 0){
-      document.getElementById("rezultati").innerHTML += `Naručeno: Brijac 2, komada ${kolDrugi}.<br>`
+      document.getElementById("rezultati").innerHTML += `Naručeno: Mašinica za šišanje, komada ${kolDrugi}.<br>`
   }
   if(kolTreci > 0){
-      document.getElementById("rezultati").innerHTML += `Naručeno: Brijac 3, komada ${kolTreci}.<br>`
+      document.getElementById("rezultati").innerHTML += `Naručeno: Makaze za šišanje, komada ${kolTreci}.<br>`
   }
   if(kolCetiri > 0){
-      document.getElementById("rezultati").innerHTML += `Naručeno: Brijac 4, komada ${kolCetiri}.<br>`
+      document.getElementById("rezultati").innerHTML += `Naručeno: Set za brijanje, komada ${kolCetiri}.<br>`
   }
   if(kolPet > 0){
-      document.getElementById("rezultati").innerHTML += `Naručeno: Brijac 5, komada ${kolPet}.<br>`
+      document.getElementById("rezultati").innerHTML += `Naručeno: Makaze 2, komada ${kolPet}.<br>`
   }
   if(kolSest > 0){
-      document.getElementById("rezultati").innerHTML += `Naručeno: Brijac 6, komada ${kolSest}.`
+      document.getElementById("rezultati").innerHTML += `Naručeno: Brijači, komada ${kolSest}.`
   }
   else {
 document.getElementById("rezultati").innerHTML += '';
