@@ -53,7 +53,7 @@ let sveValidno = true;
 
 function proveriIme(){
 
-  if(/^([a-zA-Za-žA-Ž'-\s])+$/.test(ime.value)){
+  if(/^[ ]*[a-zA-Za-žA-Ž]{2,}(([' -][a-zA-Za-žA-Ž ])?[a-zA-Za-žA-Ž ]*)*$/.test(ime.value)){
     ime.classList.add("valid");
   }
 
@@ -66,7 +66,7 @@ function proveriIme(){
 }
 
 function proveriGrad() {
-  if (/^([a-zA-Za-žA-Ž-\s])*$/.test(grad.value)){
+  if (/^[ ]*[a-zA-Za-žA-Ž]{2,}(([ -][a-zA-Za-žA-Ž ])?[a-zA-Za-žA-Ž ]+)*$/.test(grad.value)){
   grad.classList.add("valid");
 }
   else {
@@ -98,7 +98,7 @@ function proveriTelefon(){
   else {
     sveValidno = false;
     telefon.classList.remove("valid");
-  alert("Unesite u pravilnom formatu svoj broja telefona");
+  alert("Unesite u pravilnom formatu svoj broj telefona");
   }
 }
 
@@ -108,7 +108,7 @@ function proveriEmail(){
 }
   else {
     sveValidno = false;
-    ime.classList.remove("valid");
+    email.classList.remove("valid");
     alert("Unesite svoj email");
   }
 

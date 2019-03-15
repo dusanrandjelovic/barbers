@@ -29,7 +29,7 @@ function proveriTelefon(){
   else {
     sveValidno = false;
     telefon.classList.remove("valid");
-  alert("Unesite u pravilnom formatu svoj broja telefona");
+  alert("Unesite u pravilnom formatu svoj broj telefona");
   }
 }
 
@@ -46,7 +46,7 @@ function proveriEmail(){
 }
 
 function proveriWebadresu() {
-  if (/^(https?:\/\/)?(www\.)?[a-z0-9]+[\.-]?[a-z0-9]+\.[a-z]{2,6}[\/]?$/.test(webadresa.value)){
+  if (/^(https?:\/\/)?(www\.)?[a-z0-9]+[.-]?[a-z0-9]+\.[a-z]{2,6}[\/]?$/.test(webadresa.value)){
   webadresa.classList.add("valid");
 }
   else {
