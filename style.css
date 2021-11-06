@@ -11,6 +11,7 @@ img {
   height: auto;
 }
 main {
+ /* background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-03-free-img.jpg");*/
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://websitedemos.net/alex14/wp-content/uploads/sites/231/2018/07/bg-img-03-free-img.jpg");
   background-size: cover;
   width: 100%;
